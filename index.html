@@ -19,5 +19,27 @@
             </div>
         </nav>
     </header>
+    <main>
+        <section class="intro">
+            <div class="left-section">
+                <div>Hi! My name is</div>
+                <div class="purple">Syed Faizan</div>
+                <div>And I'm a passionate</div>
+                <div>
+                    <span class="purple" id="element"></span>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="dev-pic.jpg" alt="Syed Faizan">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Developer', 'Software Engineer', 'Computer Scientist'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 </html>

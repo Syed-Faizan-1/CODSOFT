@@ -45,3 +45,33 @@ nav .left {
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 1.5rem;
 }
+.intro {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px auto;
+}
+
+.intro>div {
+    width: 40%;
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+}
+
+.right-section img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    object-fit: cover;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Passion One", sans-serif;
+    font-size: 3rem;
+}
