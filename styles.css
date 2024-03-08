@@ -87,7 +87,7 @@ nav .left {
 #about-me{
     font-size: larger;
 }
-.social,.projects{
+.social,.projects,.skill-set{
     display: flex;
     flex-direction: column;
     gap: 15px;
