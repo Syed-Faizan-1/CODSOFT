@@ -75,3 +75,16 @@ nav .left {
     font-family: "Passion One", sans-serif;
     font-size: 3rem;
 }
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 80vw;
+    height: auto;
+    margin: auto;
+    font-family: "Passion One", sans-serif;
+}
+#about-me{
+    font-size: larger;
+}
+
