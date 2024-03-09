@@ -27,6 +27,20 @@ nav{
     color: wheat;
     font-size: 20px;
     padding: 10px 20px;
+    position: relative;
+}
+.links a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+.links a:hover:before{
+    width: 90%;
 }
 button{
     width: max-content;
@@ -34,11 +48,12 @@ button{
     padding: 15px;
     font-size: medium;
     border-radius: 10px;
-    border: blueviolet;
     color: white;
+    transition: 0.4s;
 }
 button:hover{
-    
+    background: transparent;
+    border: 2px solid indianred;
 }
 .text{
     max-width: 650px;
@@ -51,6 +66,7 @@ button:hover{
 }
 .text span{
     letter-spacing: 5px;
+    font-size: 2rem;
 }
 .text h1{
     font-size: 3.5rem;
